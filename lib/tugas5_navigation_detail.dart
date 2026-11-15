@@ -18,9 +18,7 @@ class DetailPageProduct extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text(itemTitle),
-        backgroundColor: Colors.blueAccent,
-        foregroundColor: Colors.white,
+        title: Text(itemTitle, style: TextStyle(color: Colors.black),),
       ),
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
@@ -38,29 +36,32 @@ class DetailPageProduct extends StatelessWidget {
                 ),
               ),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 22),
             Text(
               itemTitle,
               style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 6),
+            const SizedBox(height: 8),
             Text(
               'Harga : $itemPrice',
               style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.w600,
-                color: Colors.blueAccent,
+                color: Color.fromARGB(255, 180, 68, 255),
               ),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 32),
             const Text(
               'Deskripsi',
               style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
             ),
-            const SizedBox(height: 6),
+            const SizedBox(height: 8),
             Text(
               itemDescription,
-              style: const TextStyle(fontSize: 15, height: 1.4),
+              style: const TextStyle(
+                fontSize: 15, 
+                height: 1.5
+              ),
             ),
           ],
         ),

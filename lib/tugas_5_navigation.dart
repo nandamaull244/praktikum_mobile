@@ -9,52 +9,22 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     final List<Map<String, dynamic>> products = [
       {
-        'nama': 'Laptop',
-        'harga': '1000',
-        'deskripsi': 'Laptop untuk kerja, kuliah, dan hiburan. Ringan dibawa dan cocok untuk penggunaan sehari-hari.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Qkj_4u0IRCrNQ8QY_tP2mrzXrPrLJt5kg78EEklBHQ&s',
+        'nama': 'Iphone 11 64GB Ibox',
+        'harga': 'Rp.3,600,000',
+        'deskripsi': 'Iphone 11 64GB Ibox Bekas Mulus like new Fullset Original',
+        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLZtol5WC00l-9vibC0pZHkbG0quYV4HejYCTor0UKnQ&s=10',
       },
       {
-        'nama': 'Kulkas',
-        'harga': '1500',
-        'deskripsi': 'Kulkas untuk menyimpan makanan dan minuman agar tetap segar lebih lama.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRR1sHKDZikrOKzA4AQAB5mBs1Md7_P3qbYo8WysG-azg&s=10',
+        'nama': 'Iphone 12 128GB Ibox',
+        'harga': 'Rp.5,500,000',
+        'deskripsi': 'Iphone 12 128GB Ibox resmi indonesia likw new Fullset Original',
+        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4G_o4lXVpnSRv-mXCJsnctsU1nFNwsuQ7nKAd2enYQA&s',
       },
       {
-        'nama': 'Air Conditioner',
-        'harga': '1300',
-        'deskripsi': 'AC untuk menjaga suhu ruangan tetap sejuk dan nyaman, terutama saat cuaca panas.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfbandVJOHmLPFiaHEYr3CtnEP0mTAMHJs7ehHCvMTcQ&s=10',
-      },
-      {
-        'nama': 'Television',
-        'harga': '500',
-        'deskripsi': 'Televisi layar datar untuk menonton film, berita, dan acara favorit keluarga.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcST02ShLHpLFwuJEXiONn96Q0MuqtSy3aH4p3ufmqNn8g&s=10',
-      },
-      {
-        'nama': 'Samsung Galaxy',
-        'harga': '800',
-        'deskripsi': 'Smartphone Android dari Samsung dengan layar AMOLED dan kamera yang diandalkan.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToRUbxZzN553_oj60YtQ5Fg09UpeJbZ8wRF8P4PxeEuA&s=10',
-      },
-      {
-        'nama': 'iPhone',
-        'harga': '1200',
-        'deskripsi': 'Smartphone dari Apple dengan sistem iOS yang terintegrasi dengan perangkat Apple lainnya.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiWwzOdLIWV2V8EmyBJ7bXNsESckNjonfAJuMuBS3KJA&s',
-      },
-      {
-        'nama': 'Xiaomi',
-        'harga': '400',
-        'deskripsi': 'Smartphone Android dari Xiaomi yang dikenal menawarkan spesifikasi tinggi di harga terjangkau.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpDBVLtoi492BfqXw6g5DSu0qNIaLZaMKCh2vgXKj76A&s',
-      },
-      {
-        'nama': 'OPPO',
-        'harga': '450',
-        'deskripsi': 'Smartphone Android dari OPPO dengan fokus pada kamera dan desain yang tipis.',
-        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6qyDo83Aa_kHNUKTsPOpMIqhxhPz7OUJkyYAtZ1VFA&s=10',
+        'nama': 'Iphone 13 128GB Beacukai',
+        'harga': 'Rp.6,500,000',
+        'deskripsi': 'Iphone 13 128GB resmi Beacukai like new fullset original',
+        'image': 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSC5Gyvqt4ojg_8snbOEL2I-dvLXmsqYSRDTDCTV34ifQ&s=10',
       },
     ];
 
