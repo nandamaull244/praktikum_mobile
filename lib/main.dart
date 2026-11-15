@@ -8,6 +8,7 @@ import 'package:flutter/material.dart';
 // import 'package:tugas_praktikum1/whatsapp.dart';
 // import 'package:tugas_praktikum1/shopsmart_app.dart';
 import 'package:tugas_praktikum1/tugas_5_navigation.dart';
+import 'package:tugas_praktikum1/tugas_6.dart';
 
 void main() {
   runApp(const MyApp());
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MainPage(),
+      home: TugasEnam(),
     );
   }
 }
